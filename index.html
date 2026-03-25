@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed & [Bride Name]</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+  <h1>Ahmed & [Bride Name]</h1>
+  <p>We’re getting married</p>
+  <h2>20 June 2026</h2>
+  <a href="#rsvp" class="btn">RSVP</a>
+</section>
+
+<section class="details">
+  <h2>Event Details</h2>
+  <p>Wedding Ceremony</p>
+  <p>7:00 PM (Please arrive by 6:30 PM)</p>
+  <p>Dress Code: Formal</p>
+</section>
+
+<section class="location">
+  <h2>Location</h2>
+  <a href="https://maps.google.com" target="_blank">Open in Google Maps</a>
+</section>
+
+<section id="rsvp" class="rsvp">
+  <h2>RSVP</h2>
+  <form action="https://formspree.io/f/YOUR_ID" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number">
+    <select name="attendance">
+      <option>Will you attend?</option>
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+</body>
+</html>
